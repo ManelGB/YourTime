@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width">
+    <title>Sr. Ponto</title>
+</head>
+<body>
+    <header>
+        <img src="imgs/user.png" alt="profile">
+        <a href="index.html"><img src="imgs/logo.jpeg" alt="logo"></a>
+        <img src="imgs/saida.jpg" alt="logout">
+    </header>
+    <nav>
+        <a href="compartilhar.html"><img src="imgs/compartilhar.jpg" alt="share"></a>
+        <a href="registrar.html"><img src="imgs/calendario.jpg" alt="calendar"></a>
+    </nav>
+    <main>
+        <form>
+            <label for="dia">Dia:</label>
+            <input type="date" id="dia" name="dia" required>
+    
+            <label for="hora_inicio">Hora Início:</label>
+            <input type="time" id="hora_inicio" name="hora_inicio" required>
+    
+            <label for="hora_fim">Hora Fim:</label>
+            <input type="time" id="hora_fim" name="hora_fim" required>
+    
+            <label for="intervalo">Intervalo:</label>
+            <input type="time" id="intervalo" name="intervalo" required>
+    
+            <label for="anotacoes">Anotações:</label>
+            <textarea id="anotacoes" name="anotacoes" rows="4"></textarea>
+    
+            <button type="submit">Registrar</button>
+        </form>
+    </main>
+
+</body>
+</html>
