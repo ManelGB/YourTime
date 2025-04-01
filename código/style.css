@@ -61,3 +61,48 @@ html {
 
 body {
 }
+
+form#baterPonto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+button#registrar{
+  padding: 30px;
+  background-color: #213071;
+  color: white;
+  font-weight: bold;
+  font-size: 33px;
+  border-radius: 1000px;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+button#registrar:hover{
+  background-color: #181e36;
+
+}
+
+h3{
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+
+div#horariosRegistrados{
+  padding: 10px;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+}
+
+div#horariosRegistrados > div {
+  margin: 16px;
+  background-color: rgb(52, 105, 212);
+  padding: 20px;
+  border-radius: 10px;
+  flex-grow: 1;
+  text-align: center;
+}
