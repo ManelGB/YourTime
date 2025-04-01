@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 /* Reset all CSS styles */
 * {
   margin: 0;
@@ -54,12 +56,9 @@ table {
 
 /* Custom styles */
 
-html {
-  font-family: "Roboto", sans-serif;
+* {
+  font-family: "Roboto";
   font-size: 16px;
-}
-
-body {
 }
 
 form#baterPonto{
