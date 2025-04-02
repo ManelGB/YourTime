@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width">
     <title>Your Time</title>
-    <link rel="stylesheet" href="styleGeral.css" />
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -19,23 +19,17 @@
         <a href="registrar.html"><img src="imgs/calendario.jpg" alt="calendar"></a>
     </nav>
     <main>
-        <form>
-            <label for="dia">Dia:</label>
-            <input type="date" id="dia" name="dia" required>
+        <form id="baterPonto">
 
-            <label for="hora_inicio">Hora Início:</label>
-            <input type="time" id="hora_inicio" name="hora_inicio" required>
+            <button id="registrar" type="submit">Registrar</button>
 
-            <label for="hora_fim">Hora Fim:</label>
-            <input type="time" id="hora_fim" name="hora_fim" required>
-
-            <label for="intervalo">Intervalo:</label>
-            <input type="time" id="intervalo" name="intervalo" required>
-
-            <label for="anotacoes">Anotações:</label>
-            <textarea id="anotacoes" name="anotacoes" rows="4"></textarea>
-
-            <button type="submit">Registrar</button>
+            <h3>Horarios Registrados</h3>
+            <div id="horariosRegistrados">
+            <div>09:00</div>
+            <div>12:00</div>
+            <div>13:00</div>
+            <div>16:00</div>  
+            </div>
         </form>
     </main>
 
