@@ -4,10 +4,22 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Detalhes de Apontamento</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="../css/styleRegistrar.css" />
 </head>
 <body>
-  <div class="container">
+    <div class="sidebar">
+      <div class="sidebar-header">
+        <img src="imgs/user.png" alt="profile">
+        <a href="index.html"><img src="imgs/logo.jpeg" alt="logo"></a>
+        <img src="imgs/saida.jpg" alt="logout">
+      </div>
+      <nav class="sidebar-nav">
+        <a href="compartilhar.html"><img src="imgs/compartilhar.jpg" alt="share"></a>
+        <a href="registrar.html"><img src="imgs/calendario.jpg" alt="calendar"></a>
+      </nav>
+    </div>
+  
+    <div class="container">
     <div class="header">
       <button class="back-button">
         <a href="index.html">
@@ -23,19 +35,20 @@
     <hr class="divider" />
     
     <div class="content">
-        <div class="column entrada">
+        <div class="column_entrada">
             <div class="registro">Entrada <br> 08:00</div>
             <div class="registro">Entrada <br> 13:10</div>
           </div>
         
         <div class="linha-central"></div>
         
-        <div class="column saida">
+        <div class="column_saida">
         <div class="registro">Saída <br> 12:00</div>
         <div class="registro">Saída <br> 20:00</div>
       </div>
         
     </div>
   </div>
+  <button class="registrar-btn">Registrar Ponto</button>
 </body>
 </html>
