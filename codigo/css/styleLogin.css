@@ -15,3 +15,23 @@ main {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   background-color: #fff;
 }
+
+h1 {
+  font-size: 3.125rem;
+  margin-bottom: 40px;
+}
+
+.email {
+  width: 100%;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #1d1d1d;
+  color: #ffffff;
+  border-radius: 8px;
+  padding: 2px 0px;
+  margin-bottom: 20px;
+  border: none;
+  font-size: 1rem;
+}
