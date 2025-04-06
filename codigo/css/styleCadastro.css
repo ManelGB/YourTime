@@ -3,6 +3,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100%;
+  width: 80;
 }
 
 main {
@@ -16,31 +17,43 @@ main {
   background-color: #fff;
 }
 
+.voltar {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #fff;
+  color: #181e36;
+  text-decoration: none;
+  border: none;
+  border-radius: 50px;
+  font-size: 1rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.voltar:hover {
+  background-color: #181e36;
+  color: #fff;
+  transition: 0.3s;
+}
+
 h1 {
   font-size: 3.125rem;
   margin-bottom: 40px;
   align-self: center;
 }
 
-.email {
-  width: 100%;
-}
-
 input[type="email"],
-input[type="password"] {
+input[type="password"],
+input[type="text"] {
   width: 100%;
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
-.links {
-  display: flex;
-}
-
-.links p,
-.links p a {
-  font-size: 0.75rem;
-  margin: 10px 20px;
+input[type="submit"] {
+  display: block;
+  width: 20%;
+  margin: 10px auto;
 }
