@@ -1,0 +1,209 @@
+/* Reset all CSS styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  padding: 0;
+}
+
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+button, input, textarea, select {
+  font: inherit;
+  color: inherit;
+  border: none;
+  background: none;
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+ul, ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 🧱 SIDEBAR LATERAL FIXA */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  gap: 20px;
+}
+
+.sidebar-header img {
+  height: 40px;
+  margin-bottom: 10px;
+}
+
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.sidebar-nav img {
+  height: 30px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.sidebar-nav img:hover {
+  transform: scale(1.1);
+}
+
+/* 🔽 Espaço reservado ao lado da sidebar */
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 90px;
+  background-color: #ffffff;
+  height: 100vh;
+  flex-direction: column;
+}
+/* Estilos principais */
+.container {
+  min-width: 25%;
+  height: 75%;
+  margin: 0 auto;
+  background: linear-gradient(to bottom, #f5e9d5, #eeda8ace);
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 5px 5px 15px rgb(62, 18, 18);
+  
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.back-button a {
+  display: inline-block;
+  font-size: 24px;
+  padding: 6px 12px;
+  border-radius: 6px;
+  background-color: transparent;
+  transition: background-color 0.3s;
+}
+
+.back-button a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+.info p {
+  font-style: oblique;
+  font-family: 'Courier New', Courier, monospace;
+  margin: 2px 0;
+}
+
+.saldo {
+  color: green;
+  font-weight: bold;
+}
+
+.divider {
+  margin: 10px 0;
+  border: none;
+  border-top: 2px dashed #464545;
+}
+
+.content {
+  display: flex;
+  position: relative;
+  padding: 10px;
+  height: 90%;
+}
+
+
+.column_entrada {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-items: center;
+}
+
+.column_saida {
+  margin-top: 70px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  align-items: center;
+}
+
+
+.linha-central {
+  width: 1px;
+  display: flex;
+  background-color: #464545;
+  height: 100%;         /* <- ESSENCIAL */
+  margin: 0 10px;
+}
+
+
+.registro {
+  background-color: #f4ebdc;
+  padding: 12px;
+  border-radius: 15px;
+  text-align: center;
+  font-weight: bold;
+  border: 1px solid #000;
+  font-style: oblique;
+  font-family: 'Courier New', Courier, monospace;
+  width: 100px;
+}
+
+.registrar-btn {
+  display: block;
+  margin: 20px auto 0 auto; /* margem em cima e centralização horizontal */
+  padding: 14px 28px;
+  background-color: #f4ebdc;
+  border: 2px solid #000;
+  border-radius: 12px;
+  font-size: 16px;
+  font-weight: bold;
+  font-style: oblique;
+  font-family: 'Courier New', Courier, monospace;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Hover effect */
+.registrar-btn:hover {
+  background-color: #eeda8a;
+  transform: scale(1.05);
+}
