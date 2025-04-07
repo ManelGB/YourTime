@@ -10,32 +10,43 @@
 </head>
 
 <body>
-    <main>
-        <header>
-            <img id="fotoUsuario" src="../img/semUsuario.avif" alt="">
-            <div class="titulacoes">
-                <h2>José da Silva Lemos</h2>
-                <h3>Desenvolvedor</h3>
-            </div>
-        </header>
-        <section>
-            <div id="horasTotais" class="titulo">
-                <h3>Saldo total:</h2>
-                    <p>+ 12:35</p>
-            </div>
-            <div id="horasGrafico" class="titulo">
-                <h3>Saldo dos últimos dias:</h2>
-                    <img src="../img/graficos.png" alt="">
-            </div>
-            <div class="exportarDiv">
-                <a class="exportar">Exportar Excel</a>
-                <a class="exportar">Exportar Pdf</a>
-            </div>
-        </section>
-    </main>
-    <footer>
+    <!-- Menu lateral -->
+    <div id="sidebar" class="sidebar">
 
-    </footer>
+        <a href="index.html">
+            <h2>Menu</h2>
+        </a>
+        <a href="registrar.html">Registrar</a>
+        <a href="historico.html">Histórico</a>
+        <a href="projeto.html">Projeto</a>
+        <a id="sair" href="login.html">&lt; Sair</a>
+    </div>
+
+    <div class="main">
+        <main>
+            <header>
+                <img id="fotoUsuario" src="../img/semUsuario.avif" alt="">
+                <div class="titulacoes">
+                    <h2>José da Silva Lemos</h2>
+                    <h3>Desenvolvedor</h3>
+                </div>
+            </header>
+            <section>
+                <div id="horasTotais" class="titulo">
+                    <h3>Saldo total:</h2>
+                        <p>+ 12:35</p>
+                </div>
+                <div id="horasGrafico" class="titulo">
+                    <h3>Saldo dos últimos dias:</h2>
+                        <img src="../img/graficos.png" alt="">
+                </div>
+                <div class="exportarDiv">
+                    <a class="exportar">Exportar Excel</a>
+                    <a class="exportar">Exportar Pdf</a>
+                </div>
+            </section>
+        </main>
+    </div>
 </body>
 
 </html>

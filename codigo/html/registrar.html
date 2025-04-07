@@ -1,31 +1,35 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Detalhes de Apontamento</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Time</title>
+  <link rel="stylesheet" href="../css/styleGeral.css" />
   <link rel="stylesheet" href="../css/styleRegistrar.css" />
 </head>
+
 <body>
 
-    <!-- Menu lateral -->
-    <div id="sidebar" class="sidebar">
+  <div id="sidebar" class="sidebar">
 
-        <h2>Menu</h2>
-        <a href="cadastro.html">Cadastrar</a>
-        <a href="registrar.html">Registrar</a>
-        <a href="compartilhar.html">Compartilhar</a>
-    </div>
+    <a href="index.html">
+      <h2>Menu</h2>
+    </a>
+    <a href="registrar.html">Registrar</a>
+    <a href="historico.html">Histórico</a>
+    <a href="projeto.html">Projeto</a>
+    <a id="sair" href="login.html">&lt; Sair</a>
+  </div>
+  <!-- Botão para abrir o menu -->
+  <button class="open-btn"></button>
 
-    <!-- Botão para abrir o menu -->
-    <button class="open-btn" ></button>
 
-  
-    <div class="container">
+  <div class="container">
     <div class="header">
       <button class="back-button">
         <a href="index.html">
-            ←
+          ←
         </a>
       </button>
       <div class="info">
@@ -35,22 +39,23 @@
     </div>
 
     <hr class="divider" />
-    
+
     <div class="content">
-        <div class="column_entrada">
-            <div class="registro">Entrada <br> 08:00</div>
-            <div class="registro">Entrada <br> 13:10</div>
-          </div>
-        
-        <div class="linha-central"></div>
-        
-        <div class="column_saida">
+      <div class="column_entrada">
+        <div class="registro">Entrada <br> 08:00</div>
+        <div class="registro">Entrada <br> 13:10</div>
+      </div>
+
+      <div class="linha-central"></div>
+
+      <div class="column_saida">
         <div class="registro">Saída <br> 12:00</div>
         <div class="registro">Saída <br> 20:00</div>
       </div>
-        
+
     </div>
   </div>
   <button class="registrar-btn">Registrar Ponto</button>
 </body>
+
 </html>

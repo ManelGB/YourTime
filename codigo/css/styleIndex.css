@@ -1,4 +1,4 @@
-body {
+.main {
   display: flex;
   justify-content: center;
   padding-top: 20px;
@@ -22,6 +22,7 @@ header {
   flex-direction: column;
   margin-left: 20px;
   align-items: normal;
+  justify-content: center;
   padding: 0 10px;
   border: 1px solid #ccc;
   border-radius: 8px;
@@ -76,8 +77,10 @@ header h3 {
 
 .exportarDiv {
   padding-top: 10px;
+  width: 100%;
   display: flex;
   flex-direction: row;
+  gap: 20%;
 }
 
 .exportar {
@@ -90,6 +93,7 @@ header h3 {
   border: none;
   font-size: 1rem;
   text-align: center;
+  cursor: pointer;
 }
 
 .exportar:hover {
