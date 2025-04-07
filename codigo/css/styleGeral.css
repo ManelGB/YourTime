@@ -141,7 +141,7 @@ div#horariosRegistrados > div {
   max-width: 400px;
   height: 100%;
   margin: 0 auto;
-  background: linear-gradient(to bottom, #f5e9d5, #eeda8ace);
+  background: #fff;
   border-radius: 12px;
   padding: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
@@ -163,7 +163,6 @@ div#horariosRegistrados > div {
 
 .info p {
   font-style: oblique;
-  font-family: "Courier New", Courier, monospace;
   margin: 2px 0;
 }
 
@@ -201,14 +200,13 @@ div#horariosRegistrados > div {
 }
 
 .registro {
-  background-color: #f4ebdc;
+  background-color: #fff;
   padding: 10px;
   border-radius: 10px;
   text-align: center;
   font-weight: bold;
   border: 1px solid #000000;
   font-style: oblique;
-  font-family: "Courier New", Courier, monospace;
 }
 
 input[type="submit"] {

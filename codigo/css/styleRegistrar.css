@@ -4,19 +4,24 @@ body {
   align-items: center;
   justify-content: center;
   padding-left: 90px;
-  background-color: #ffffff;
+  background-color: #f9f9f9;
   height: 100vh;
   flex-direction: column;
 }
 /* Estilos principais */
+
+h2 {
+  font-size: 2rem;
+}
 .container {
   min-width: 25%;
   height: 75%;
   margin: 0 auto;
-  background: linear-gradient(to bottom, #f5e9d5, #eeda8ace);
-  border-radius: 12px;
   padding: 20px;
-  box-shadow: 5px 5px 15px rgb(62, 18, 18);
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
 }
 
 .header {
@@ -37,12 +42,6 @@ body {
 
 .back-button a:hover {
   background-color: rgba(0, 0, 0, 0.1);
-}
-
-.info p {
-  font-style: oblique;
-  font-family: "Courier New", Courier, monospace;
-  margin: 2px 0;
 }
 
 .saldo {
@@ -89,14 +88,13 @@ body {
 }
 
 .registro {
-  background-color: #f4ebdc;
+  background-color: #fff;
   padding: 12px;
   border-radius: 15px;
   text-align: center;
   font-weight: bold;
   border: 1px solid #000;
   font-style: oblique;
-  font-family: "Courier New", Courier, monospace;
   width: 100px;
 }
 
@@ -104,13 +102,13 @@ body {
   display: block;
   margin: 20px auto 0 auto; /* margem em cima e centralização horizontal */
   padding: 14px 28px;
-  background-color: #f4ebdc;
+  background-color: #1d1d1d;
+  color: #ffffff;
   border: 2px solid #000;
   border-radius: 12px;
   font-size: 16px;
   font-weight: bold;
   font-style: oblique;
-  font-family: "Courier New", Courier, monospace;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
@@ -118,6 +116,7 @@ body {
 
 /* Hover effect */
 .registrar-btn:hover {
-  background-color: #eeda8a;
+  background-color: #ffffff;
+  color: #1d1d1d;
   transform: scale(1.05);
 }
