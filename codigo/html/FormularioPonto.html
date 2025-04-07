@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>Your Time</title>
+    <link rel="stylesheet" href="../css/styleGeral.css" />
+    <link rel="stylesheet" href="../css/styleFormularioPonto.css" />
+</head>
+
+<body>
+    <main>
+        <header class="position">
+            <img id="fotoUsuario" src="../img/semUsuario.avif" alt="Foto do usuário">
+            <img id="saidaicon" src="../img/saida.png" alt="Ícone de saída">
+        </header>
+        <section>
+            <form action="">
+                <div class="form-group">
+                    <label for="data">Data:</label>
+                    <input type="date" id="data" name="data" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="horaInicio">Hora de Início:</label>
+                    <input type="time" id="horaInicio" name="horaInicio" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="horaFim">Hora de Término:</label>
+                    <input type="time" id="horaFim" name="horaFim" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="intervalo">Intervalo:</label>
+                    <input type="time" id="intervalo" name="intervalo" value="00:00">
+                </div>
+                
+                <div class="form-group">
+                    <label for="anotacoes">Anotações:</label>
+                    <textarea id="anotacoes" name="anotacoes" rows="4" placeholder="Digite suas observações..."></textarea>
+                </div>
+                
+                <div class="form-actions">
+                    <button type="submit">Salvar</button>
+                    <button type="reset">Limpar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <!-- Conteúdo do footer pode ser adicionado aqui -->
+    </footer>
+</body>

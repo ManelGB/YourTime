@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <title>Your Time</title>
+    <link rel="stylesheet" href="../css/styleGeral.css" />
+    <link rel="stylesheet" href="../css/styleHistoricoApontamento.css" />
+</head>
+
+<body>
+    <main>
+        <header class="main-header">
+            <div class="header-content">
+                <button class="back-button">
+                    <span class="back-icon">&#60;</span>
+                </button>
+                <form class="search-form">
+                    <div class="date-inputs">
+                        <input type="date" id="dataInicio" name="dataInicio" required>
+                        <span class="date-separator">até</span>
+                        <input type="date" id="dataFim" name="dataFim" required>
+                    </div>
+                    <select id="projeto" name="projeto">
+                        <option value="" disabled selected>Projetos</option>
+                        <option value="projeto1">Projeto Alpha</option>
+                        <option value="projeto2">Projeto Beta</option>
+                        <option value="projeto3">Projeto Gamma</option>
+                    </select>
+                    <button type="submit" class="search-button">Pesquisar</button>
+                </form>
+            </div>
+        </header>
+        <section class="cards-container">
+            <div class="time-card">
+                <div class="card-header">
+                    <span class="card-date">15/03/2023</span>
+                    <span class="card-balance positive">+02:15</span>
+                </div>
+                <div class="card-actions">
+                    <button class="action-button edit">Editar</button>
+                    <button class="action-button details">Detalhes</button>
+                    <button class="action-button export">Exportar</button>
+                </div>
+            </div>
+            
+            <div class="time-card">
+                <div class="card-header">
+                    <span class="card-date">22/03/2023</span>
+                    <span class="card-balance negative">-01:30</span>
+                </div>
+                <div class="card-actions">
+                    <button class="action-button edit">Editar</button>
+                    <button class="action-button details">Detalhes</button>
+                    <button class="action-button export">Exportar</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <!-- Conteúdo do footer pode ser adicionado aqui -->
+    </footer>
+</body>
