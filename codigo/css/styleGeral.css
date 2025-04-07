@@ -226,3 +226,33 @@ input[type="submit"]:hover {
   border: #181e36 1px solid;
   transition: 0.3s;
 }
+
+/* Estilos para o menu lateral responsivo */
+.sidebar {
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar.hidden {
+  transform: translateX(-100%);
+}
+
+.menu-toggle {
+  display: block; /* Garantir que o botão esteja sempre visível */
+  position: fixed; /* Fixo na tela */
+  top: 10px;
+  left: 10px;
+  background-color: #1d1d1d;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.menu-toggle:hover {
+  background-color: #fff;
+  color: #181e36;
+  border: #181e36 1px solid;
+  transition: 0.3s;
+}

@@ -125,41 +125,12 @@ header h3 {
   padding: 20px;
 }
 
-/* Estilos para o menu lateral responsivo */
-.sidebar {
-  transition: transform 0.3s ease-in-out;
-}
-
-.sidebar.hidden {
-  transform: translateX(-100%);
-}
-
-.menu-toggle {
-  display: block; /* Garantir que o botão esteja sempre visível */
-  position: fixed; /* Fixo na tela */
-  top: 10px;
-  left: 10px;
-  background-color: #1d1d1d;
-  color: #ffffff;
-  border: none;
-  border-radius: 8px;
-  padding: 10px;
-  cursor: pointer;
-  z-index: 1000;
-}
-
-.menu-toggle:hover {
-  background-color: #fff;
-  color: #181e36;
-  border: #181e36 1px solid;
-  transition: 0.3s;
-}
-
 /* Responsividade para Celular */
 @media only screen and (max-width: 600px) {
-  .main {
+  main {
     flex-direction: column;
     padding: 10px;
+    margin-top: 1%;
   }
 
   header {
@@ -247,7 +218,7 @@ header h3 {
     background-color: #1d1d1d;
     color: #ffffff;
     transform: translateX(-100%);
-    z-index: 999;
+    z-index: 999; /* Certificar que o menu está acima */
   }
 
   .sidebar.visible {
@@ -255,11 +226,16 @@ header h3 {
   }
 
   .menu-toggle {
-    display: block;
+    z-index: 4;
   }
 
   .main {
-    margin-left: 0;
+    margin-left: 20%;
+    margin-top: 4%;
+  }
+
+  .registrar {
+    width: 100%;
   }
 }
 
