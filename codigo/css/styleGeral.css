@@ -17,7 +17,6 @@ body {
   padding: 20px;
 }
 
-
 /* Reset additional styles */
 img,
 picture,
@@ -50,13 +49,7 @@ table {
   font-size: 16px;
 }
 
-<<<<<<< HEAD:código/style.css
-
-
-form#baterPonto{
-=======
 form#baterPonto {
->>>>>>> 6038bcfa1100e76c52788f682c1cc8488c8d0d66:codigo/css/styleGeral.css
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -100,7 +93,6 @@ div#horariosRegistrados > div {
   text-align: center;
 }
 
-<<<<<<< HEAD:código/style.css
 .container {
   max-width: 400px;
   height: 100%;
@@ -108,7 +100,7 @@ div#horariosRegistrados > div {
   background: linear-gradient(to bottom, #f5e9d5, #eeda8ace);
   border-radius: 12px;
   padding: 20px;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 
 .header {
@@ -127,9 +119,8 @@ div#horariosRegistrados > div {
 
 .info p {
   font-style: oblique;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   margin: 2px 0;
-  
 }
 
 .saldo {
@@ -148,7 +139,6 @@ div#horariosRegistrados > div {
   position: relative;
   padding: 10px;
   height: 90%;
-
 }
 
 .column {
@@ -174,8 +164,9 @@ div#horariosRegistrados > div {
   font-weight: bold;
   border: 1px solid #000000;
   font-style: oblique;
-  font-family: 'Courier New', Courier, monospace;
-=======
+  font-family: "Courier New", Courier, monospace;
+}
+
 input[type="submit"] {
   width: 100%;
   background-color: #1d1d1d;
@@ -192,5 +183,4 @@ input[type="submit"]:hover {
   color: #181e36;
   border: #181e36 1px solid;
   transition: 0.3s;
->>>>>>> 6038bcfa1100e76c52788f682c1cc8488c8d0d66:codigo/css/styleGeral.css
 }
