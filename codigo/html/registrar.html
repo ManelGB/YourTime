@@ -11,16 +11,18 @@
 
 <body>
 
-  <div id="sidebar" class="sidebar">
+  <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+    <div id="sidebar" class="sidebar hidden">
 
-    <a href="index.html">
-      <h2>Menu</h2>
-    </a>
-    <a href="registrar.html">Registrar</a>
-    <a href="telaNaoFinalizada.html">Histórico</a>
-    <a href="telaNaoFinalizada.html">Projeto</a>
-    <a id="sair" href="login.html">Sair</a>
-  </div>
+        <a href="index.html">
+            <h2>Menu</h2>
+        </a>
+        <a href="registrar.html">Registrar</a>
+        <a href="telaNaoFinalizada.html">Histórico</a>
+        <a href="telaNaoFinalizada.html">Projeto</a>
+        <a href="#" onclick="toggleMenu()">Fechar Menu</a>
+        <a id="sair" href="login.html">&lt; Sair</a>
+    </div>
 
 
 
@@ -56,5 +58,13 @@
   </div>
   <button class="registrar-btn">Registrar Ponto</button>
 </body>
+
+<script>
+  function toggleMenu() {
+      const sidebar = document.getElementById('sidebar');
+      sidebar.classList.toggle('hidden');
+      sidebar.classList.toggle('visible');
+  }
+</script>
 
 </html>

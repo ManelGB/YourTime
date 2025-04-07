@@ -11,21 +11,6 @@ body {
   font-family: Arial, sans-serif;
 }
 
-.sidebar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 90px;
-  height: 100vh;
-  background-color: #fff;
-  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-top: 20px;
-  gap: 20px;
-}
 
 .container {
   width: 90%;
@@ -86,14 +71,13 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 20px;
-  min-width: 100px;
+  gap: 1em;
 }
 
 .linha-central {
   width: 2px;
   background-color: #464545;
-  height: auto;
+  height: 90%;
   align-self: stretch;
 }
 
@@ -133,14 +117,9 @@ body {
 /* CELULAR */
 @media only screen and (max-width: 600px) {
   body{
-    padding: 10%;
+    padding: 0;
   }
 
-  .sidebar {
-    width: 15%;
-    font-size: 20%;
-    gap: 2.5%;
-  }
 
   .container {
     height: 65%;
@@ -156,12 +135,14 @@ body {
 
   .column_entrada,
   .column_saida {
-    gap: 0.5rem;
+    
+    gap: 0.7rem;
   }
 
   .registro {
-    width: 50%;
-    font-size: 80%;
+    width: 90%;
+    font-size: 20px;
+    padding: 10px;
   }
 
   .registrar-btn {
@@ -177,10 +158,6 @@ body {
     padding-left: 80px;
   }
 
-  .sidebar {
-    width: 75px;
-    font-size: 14px;
-  }
 
   .container {
     width: 85%;
