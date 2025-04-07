@@ -124,3 +124,180 @@ header h3 {
   margin-top: 20px;
   padding: 20px;
 }
+
+/* Estilos para o menu lateral responsivo */
+.sidebar {
+  transition: transform 0.3s ease-in-out;
+}
+
+.sidebar.hidden {
+  transform: translateX(-100%);
+}
+
+.menu-toggle {
+  display: block; /* Garantir que o botão esteja sempre visível */
+  position: fixed; /* Fixo na tela */
+  top: 10px;
+  left: 10px;
+  background-color: #1d1d1d;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.menu-toggle:hover {
+  background-color: #fff;
+  color: #181e36;
+  border: #181e36 1px solid;
+  transition: 0.3s;
+}
+
+/* Responsividade para Celular */
+@media only screen and (max-width: 600px) {
+  .main {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  #fotoUsuario {
+    width: 100px;
+    height: 100px;
+  }
+
+  .titulacoes {
+    margin-left: 0;
+    width: 100%;
+    padding: 10px;
+  }
+
+  #horasGrafico img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .exportarDiv {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .exportar,
+  .registrar {
+    width: 100%;
+  }
+}
+
+/* Responsividade para Tablet */
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  .main {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  header {
+    flex-direction: row;
+    align-items: center;
+    text-align: left;
+  }
+
+  #fotoUsuario {
+    width: 120px;
+    height: 120px;
+  }
+
+  .titulacoes {
+    margin-left: 15px;
+    width: auto;
+  }
+
+  #horasGrafico img {
+    width: 80%;
+    max-width: 500px;
+    height: auto;
+  }
+
+  .exportarDiv {
+    flex-direction: row;
+    gap: 10%;
+  }
+
+  .exportar,
+  .registrar {
+    width: 45%;
+  }
+}
+
+/* Responsividade para Tablet e Celular */
+@media only screen and (max-width: 992px) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #1d1d1d;
+    color: #ffffff;
+    transform: translateX(-100%);
+    z-index: 999;
+  }
+
+  .sidebar.visible {
+    transform: translateX(0);
+  }
+
+  .menu-toggle {
+    display: block;
+  }
+
+  .main {
+    margin-left: 0;
+  }
+}
+
+/* Responsividade para Desktop */
+@media only screen and (min-width: 992px) {
+  .main {
+    flex-direction: row;
+    padding: 30px;
+  }
+
+  header {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  #fotoUsuario {
+    width: 125px;
+    height: 125px;
+  }
+
+  .titulacoes {
+    margin-left: 20px;
+    width: auto;
+  }
+
+  #horasGrafico img {
+    width: 400px;
+    max-width: 600px;
+    height: auto;
+  }
+
+  .exportarDiv {
+    flex-direction: row;
+    gap: 20%;
+  }
+
+  .exportar,
+  .registrar {
+    width: 100%;
+  }
+}

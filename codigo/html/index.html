@@ -10,8 +10,8 @@
 </head>
 
 <body>
-    <!-- Menu lateral -->
-    <div id="sidebar" class="sidebar">
+    <button class="menu-toggle" onclick="toggleMenu()">☰ Menu</button>
+    <div id="sidebar" class="sidebar hidden">
 
         <a href="index.html">
             <h2>Menu</h2>
@@ -58,6 +58,13 @@
             </section>
         </main>
     </div>
+    <script>
+        function toggleMenu() {
+            const sidebar = document.getElementById('sidebar');
+            sidebar.classList.toggle('hidden');
+            sidebar.classList.toggle('visible');
+        }
+    </script>
 </body>
 
 </html>

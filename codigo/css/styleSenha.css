@@ -46,3 +46,71 @@ a:hover {
   border: #181e36 1px solid;
   transition: 0.3s;
 }
+
+/* Responsividade para celular */
+@media only screen and (max-width: 600px) {
+  body {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  main {
+    width: 100%;
+    padding: 10px;
+    box-shadow: none;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  p {
+    font-size: 0.875rem;
+  }
+
+  a {
+    font-size: 0.875rem;
+    padding: 10px 0;
+  }
+}
+
+/* Responsividade para tablet */
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  main {
+    width: 80%;
+    padding: 15px 40px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  a {
+    font-size: 1rem;
+    padding: 12px 0;
+  }
+}
+
+/* Responsividade para desktop */
+@media only screen and (min-width: 992px) {
+  main {
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 3.125rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+
+  a {
+    font-size: 1rem;
+    padding: 15px 0;
+  }
+}

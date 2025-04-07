@@ -57,3 +57,56 @@ input[type="submit"] {
   width: 20%;
   margin: 10px auto;
 }
+
+/* Responsividade para celular */
+@media only screen and (max-width: 600px) {
+  body {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  main {
+    width: 100%;
+    padding: 10px;
+    box-shadow: none;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  input[type="submit"] {
+    width: 100%;
+  }
+}
+
+/* Responsividade para tablet */
+@media only screen and (min-width: 600px) and (max-width: 992px) {
+  main {
+    width: 80%;
+    padding: 15px 40px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  input[type="submit"] {
+    width: 50%;
+  }
+}
+
+/* Responsividade para desktop */
+@media only screen and (min-width: 992px) {
+  main {
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 3.125rem;
+  }
+
+  input[type="submit"] {
+    width: 20%;
+  }
+}
