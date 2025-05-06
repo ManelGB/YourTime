@@ -16,20 +16,22 @@
             <img id="saidaicon" src="../img/saida.png" alt="Ícone de saída">
         </header>
         <section>
-            <form action="">
+            <ul id="validacao" class="off">
+            </ul>
+            <form action="HistoricoApontamento.html" id="formularioPonto" method="get">
                 <div class="form-group">
                     <label for="data">Data:</label>
-                    <input type="date" id="data" name="data" required>
+                    <input type="date" id="data" name="data">
                 </div>
                 
                 <div class="form-group">
                     <label for="horaInicio">Hora de Início:</label>
-                    <input type="time" id="horaInicio" name="horaInicio" required>
+                    <input type="time" id="horaInicio" name="horaInicio">
                 </div>
                 
                 <div class="form-group">
                     <label for="horaFim">Hora de Término:</label>
-                    <input type="time" id="horaFim" name="horaFim" required>
+                    <input type="time" id="horaFim" name="horaFim">
                 </div>
                 
                 <div class="form-group">
@@ -43,8 +45,8 @@
                 </div>
                 
                 <div class="form-actions">
-                    <button type="submit">Salvar</button>
-                    <button type="reset">Limpar</button>
+                    <button type="submit" class="reset">Salvar</button>
+                    <button type="reset" class="reset">Limpar</button>
                 </div>
             </form>
         </section>
@@ -52,4 +54,7 @@
     <footer>
         <!-- Conteúdo do footer pode ser adicionado aqui -->
     </footer>
+<script src="../js/scriptsFormularioPonto.js"></script>
 </body>
+
+</html>

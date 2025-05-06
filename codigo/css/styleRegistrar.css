@@ -1,4 +1,4 @@
-/* 🔽 Espaço reservado ao lado da sidebar */
+/* Estilos gerais */
 body {
   display: flex;
   align-items: center;
@@ -7,33 +7,35 @@ body {
   background-color: #f9f9f9;
   height: 100vh;
   flex-direction: column;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
-/* Estilos principais */
 
-h2 {
-  font-size: 2rem;
-}
+
 .container {
-  min-width: 25%;
-  height: 75%;
-  margin: 0 auto;
+  width: 90%;
+  height: auto;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 20px;
   border: 1px solid #ccc;
   border-radius: 8px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   background-color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .header {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  gap: 15px;
+  flex-wrap: wrap;
   margin-bottom: 10px;
 }
 
 .back-button a {
-  display: inline-block;
-  font-size: 24px;
+  font-size: 1.5rem;
+  text-decoration: none;
   padding: 6px 12px;
   border-radius: 6px;
   background-color: transparent;
@@ -57,56 +59,48 @@ h2 {
 
 .content {
   display: flex;
-  position: relative;
-  padding: 10px;
-  height: 90%;
-}
-
-.column_entrada {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  gap: 80px;
+  gap: 10px;
+  justify-content: space-between;
   align-items: center;
+  flex-wrap: wrap;
 }
 
+.column_entrada,
 .column_saida {
-  margin-top: 70px;
   flex: 1;
   display: flex;
   flex-direction: column;
-  gap: 80px;
   align-items: center;
+  gap: 1em;
 }
 
 .linha-central {
-  width: 1px;
-  display: flex;
+  width: 2px;
   background-color: #464545;
-  height: 100%; /* <- ESSENCIAL */
-  margin: 0 10px;
+  height: 90%;
+  align-self: stretch;
 }
 
 .registro {
   background-color: #fff;
-  padding: 12px;
+  padding: 5%;
   border-radius: 15px;
   text-align: center;
   font-weight: bold;
   border: 1px solid #000;
   font-style: oblique;
-  width: 100px;
+  
 }
 
 .registrar-btn {
   display: block;
-  margin: 20px auto 0 auto; /* margem em cima e centralização horizontal */
+  margin: 20px auto 0 auto;
   padding: 14px 28px;
   background-color: #1d1d1d;
   color: #ffffff;
   border: 2px solid #000;
   border-radius: 12px;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: bold;
   font-style: oblique;
   cursor: pointer;
@@ -114,9 +108,83 @@ h2 {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
 }
 
-/* Hover effect */
 .registrar-btn:hover {
   background-color: #ffffff;
   color: #1d1d1d;
   transform: scale(1.05);
+}
+
+/* CELULAR */
+@media only screen and (max-width: 600px) {
+  body{
+    padding: 0;
+  }
+
+
+  .container {
+    height: 65%;
+    width: 90%;
+    padding: 05%;
+  }
+
+  .header {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 8px;
+  }
+
+  .column_entrada,
+  .column_saida {
+    
+    gap: 0.7rem;
+  }
+
+  .registro {
+    width: 90%;
+    font-size: 20px;
+    padding: 10px;
+  }
+
+  .registrar-btn {
+    width: 90%;
+    padding: 12px;
+    font-size: 0.9rem;
+  }
+}
+
+/* TABLET */
+@media only screen and (min-width: 600px) and (max-width: 991px) {
+  body {
+    padding-left: 80px;
+  }
+
+
+  .container {
+    width: 85%;
+  }
+
+  .registro {
+    width: 90px;
+    font-size: 1rem;
+  }
+
+  .registrar-btn {
+    width: 60%;
+  }
+}
+
+/* DESKTOP */
+@media only screen and (min-width: 992px) {
+  .container {
+    width: 60%;
+  }
+
+  .registro {
+    width: 100px;
+    font-size: 1rem;
+  }
+
+  .registrar-btn {
+    width: 40%;
+  }
 }
