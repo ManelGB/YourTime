@@ -1,0 +1,143 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/135.0.0.0 Safari/537.36" version="26.2.14">
+  <diagram name="Página-1" id="DtaSleGz0z2OUpUwsiDO">
+    <mxGraphModel dx="2180" dy="1098" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="271" y="86" width="648" height="678" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-2" value="" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="329" y="111" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-3" value="" style="edgeStyle=orthogonalEdgeStyle;html=1;verticalAlign=bottom;endArrow=open;endSize=8;strokeColor=#ff0000;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" source="PEmR_lgWxsiMy2jEpPXj-2" parent="1" target="PEmR_lgWxsiMy2jEpPXj-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="332" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PEmR_lgWxsiMy2jEpPXj-4" target="PEmR_lgWxsiMy2jEpPXj-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-4" value="Acessa a página de login" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="284" y="189" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PEmR_lgWxsiMy2jEpPXj-5" target="PEmR_lgWxsiMy2jEpPXj-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PEmR_lgWxsiMy2jEpPXj-5" target="PEmR_lgWxsiMy2jEpPXj-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-5" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="548" y="202.5" width="33" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-7" value="[ Possui cadastro? ]&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="406" y="201" width="127" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PEmR_lgWxsiMy2jEpPXj-8" target="PEmR_lgWxsiMy2jEpPXj-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-8" value="Realiza o cadastro" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="504.5" y="328" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-10" value="Realiza o Login" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="671" y="189" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-14" value="[ Não ]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="504.5" y="264" width="53" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-15" value="[ Sim ]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="589" y="194" width="52" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-16" value="Usuário" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="842" y="99" width="59" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="919" y="86" width="648" height="678" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PEmR_lgWxsiMy2jEpPXj-18" target="PEmR_lgWxsiMy2jEpPXj-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1075" y="373" />
+              <mxPoint x="827" y="373" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-18" value="Transfere Usuário para a tela de menu principal" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1015" y="189" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PEmR_lgWxsiMy2jEpPXj-10" target="PEmR_lgWxsiMy2jEpPXj-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-20" value="Sistema" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1477" y="99" width="61" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PEmR_lgWxsiMy2jEpPXj-21" target="PEmR_lgWxsiMy2jEpPXj-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-21" value="Seleciona a opção de registrar ponto" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="767" y="411" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PEmR_lgWxsiMy2jEpPXj-23" target="PEmR_lgWxsiMy2jEpPXj-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1117" y="491" />
+              <mxPoint x="827" y="491" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-23" value="Sistema apresenta as opções de registrar ponto" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1057" y="411" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="PEmR_lgWxsiMy2jEpPXj-25" target="PEmR_lgWxsiMy2jEpPXj-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-25" value="Seleciona a opção desejada" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="767" y="507" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="PEmR_lgWxsiMy2jEpPXj-27" target="PEmR_lgWxsiMy2jEpPXj-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PEmR_lgWxsiMy2jEpPXj-27" target="PEmR_lgWxsiMy2jEpPXj-35">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-27" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="810" y="621" width="33" height="33" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-29" value="[ Registrar ponto agora ? ]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="671" y="576" width="157" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PEmR_lgWxsiMy2jEpPXj-30" target="PEmR_lgWxsiMy2jEpPXj-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-30" value="Sistema insere o ponto naquele momento" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="948" y="607.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-32" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#ff0000;" vertex="1" parent="1">
+          <mxGeometry x="1167" y="623" width="30" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-34" value="[ Sim ]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="855" y="607.5" width="52" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="PEmR_lgWxsiMy2jEpPXj-35" target="PEmR_lgWxsiMy2jEpPXj-38">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="634" y="716" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-35" value="Insere os dados do ponto retroativo" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="574" y="607.5" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-36" value="[ Não ]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="732" y="607.5" width="53" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PEmR_lgWxsiMy2jEpPXj-38" target="PEmR_lgWxsiMy2jEpPXj-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="PEmR_lgWxsiMy2jEpPXj-38" value="valida os dados inseridos" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="948" y="686" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
