@@ -13,7 +13,7 @@
     <main>
         <header class="main-header">
             <div class="header-content">
-                <button class="back-button">
+                <button class="back-button" onclick="window.location.href='../html/index.html'">
                     <span class="back-icon">&#60;</span>
                 </button>
                 <form class="search-form">
@@ -33,32 +33,16 @@
             </div>
         </header>
         <section class="cards-container">
-            <div class="time-card">
-                <div class="card-header">
-                    <span class="card-date">15/03/2023</span>
-                    <span class="card-balance positive">+02:15</span>
-                </div>
-                <div class="card-actions">
-                    <button class="action-button edit">Editar</button>
-                    <button class="action-button details">Detalhes</button>
-                    <button class="action-button export">Exportar</button>
-                </div>
-            </div>
-
-            <div class="time-card">
-                <div class="card-header">
-                    <span class="card-date">22/03/2023</span>
-                    <span class="card-balance negative">-01:30</span>
-                </div>
-                <div class="card-actions">
-                    <button class="action-button edit">Editar</button>
-                    <button class="action-button details">Detalhes</button>
-                    <button class="action-button export">Exportar</button>
-                </div>
-            </div>
+            <!-- Os cards serão inseridos dinamicamente pelo JS -->
         </section>
     </main>
     <footer>
         <!-- Conteúdo do footer pode ser adicionado aqui -->
     </footer>
+    <script src="../js/models/TimeCard.js"></script>
+    <script src="../js/models/ApontamentoModel.js"></script>
+    <script src="../js/views/HistoricoView.js"></script>
+    <script src="../js/controllers/HistoricoController.js"></script>
 </body>
+
+</html>
